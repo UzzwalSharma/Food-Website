@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navsec {
+  height: 60vh;
+  background-size: cover;
+  background-image: url(pexels-vanessa-loring-5971864.jpg);
+}
+
+.nav {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  /* bottom: 5px; */
+  background-color: rgba(48, 44, 44, 0.4);
+  height: 80px;
+  /* opacity: 0.5; */
+}
+.logo img {
+  border: 2px solid white;
+  border-radius: 50%;
+  /* height: 80px; */
+  width: 60px;
+  background-size: cover;
+  border-style: none;
+  margin: 20px;
+  opacity: 1;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+ul li {
+  list-style: none;
+  padding-right: 70px;
+  color: rgb(255, 250, 243);
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+.content button {
+  margin-top: 10px;
+}
+.content p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+h1 {
+  font-weight: 1200px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(251, 249, 245);
+  font-size: 50px;
+
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+button {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  border-radius: 14px;
+  /* border-style: none; */
+  background-color: rgba(225, 6, 6, 0.7);
+  color: rgb(255, 252, 247);
+  position: relative;
+  top: 30px;
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700px;
+  font-family: "Bree Serif - 700";
+
+  font-size: 35px;
+}
+.cards {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.cards img {
+  background: none;
+  height: 200px;
+  border: 4px solid;
+  border-radius: 50%;
+  border-style: none;
+  display: flex;
+  padding: 10px;
+}
+.first {
+  border: 4px solid rgb(244, 128, 128);
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  background-color: rgba(87, 76, 76, 0.2);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  top: 50px;
+}
+.clients {
+  margin-top: 240px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(pexels-ella-olsson-1640773.jpg);
+  height: 60vh;
+  background-size: cover;
+}
+.headingc {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700px;
+  font-family: "Bree Serif - 700";
+
+  font-size: 35px;
+}
+
+.clientbox img {
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.zt {
+  border: 2px solid;
+  border-style: none;
+  border-radius: 14px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-image: url(istockphoto-1441307295-170667a.webp);
+  height: 60vh;
+  background-size: cover;
+}
+form input,
+button {
+  width: 25vw;
+  padding: 10px;
+  margin: 5px;
+  border: 4px solid;
+  border-radius: 14px;
+  border-style: none;
+}
+#date {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 60px;
+  text-align: center;
+  /* margin-top: 10px; */
+  font-weight: 1200px;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 30px;
+}
+form button {
+  text-align: center;
+  /* margin-top: 30px; */
+  font-weight: 1200px;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 20px;
+}
+
+.copyright {
+  height: 5vh;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+
